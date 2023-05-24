@@ -17,11 +17,14 @@ public class ClassRoom {
         this.pupil1 = pupil1;
         this.pupil2 = pupil2;
         this.pupil3 = pupil3;
+        this.pupil4 = new Pupil();
     }
 
     public ClassRoom(Pupil pupil1, Pupil pupil2) {
         this.pupil1 = pupil1;
         this.pupil2 = pupil2;
+        this.pupil3 = new Pupil();
+        this.pupil4 = new Pupil();
     }
 
 
